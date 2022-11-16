@@ -1,4 +1,4 @@
-![](images/banner.jpeg)
+![](images/banner.jpg)
 
 ## Zooplankton Ecology and Evolution...
 
