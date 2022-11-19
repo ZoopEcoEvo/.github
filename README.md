@@ -1,5 +1,6 @@
 # workflow
-Project folders and GitHub integrate nicely. There is, however, a specific workflow that should be followed to avoid confusion and merge conflicts. 
+Project folders and GitHub integrate nicely. There is, however, a specific workflow that should be followed to avoid confusion and merge conflicts. The approach we use is based on "GitHub flow".
+- See [https://docs.github.com/en/get-started/quickstart/github-flow](here) and [https://www.djmannion.net/code_review/](here) for more details.
 
 ## Project Setup  
 - You work with me to design a project, from background justification to experimental design. When setting up a new project, it’s recommended to follow a **GitHub first, RProject second** approach. I will set up a repo on GitHub, as part of the ZoopEcoEvo organization (the main benefit here is that the project_template repo includes a pre-determined directory structure, appropriate file paths, .Rmd YAMLs, etc. to help minimize how much set-up time is required from you)
@@ -24,4 +25,4 @@ Project folders and GitHub integrate nicely. There is, however, a specific workf
 This process is iterative! And while it might take some time and effort to get the code worked out, this will help to develop your coding skills and catch potential mistakes before they get embedded in papers and presentations. More importantly, it distributes the responsibility for checking the code across the group - If we all benefit from your work, we should all share some of this burden. 
 
 In addition to the development of projects through code, you can contribute valuable insights to the development of the lab as a whole by writing up the “invisible” work that you did - what did it take to get to a point where you could begin to engage with the project work flow? Are there aspects that were confusing or poorly explained to you? Were there obstacles that could be removed? I’ve probably spent too much time working with these systems to accurately remember what it’s really like to be faced with these challenges for the first time - your insights here can help design as smooth an onboarding experience as possible!
-- See: [https://www.catharsisinsight.com/reports](https://www.catharsisinsight.com/reports)
+- See [https://www.catharsisinsight.com/reports](here) for more details.
