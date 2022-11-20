@@ -1,5 +1,5 @@
-# workflow
-Project folders and GitHub integrate nicely. There is, however, a specific workflow that should be followed to avoid confusion and merge conflicts. The approach we use is based on "GitHub flow".
+# Workflow
+Project folders and GitHub integrate nicely. We use a specific workflow while developing projects and writing code based on "GitHub flow".
 - See [here](https://docs.github.com/en/get-started/quickstart/github-flow) and [here](https://www.djmannion.net/code_review/) for more details.
 
 ## Project Setup  
