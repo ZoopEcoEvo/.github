@@ -3,7 +3,7 @@ Project folders and GitHub integrate nicely. We use a specific workflow while de
 - See [here](https://docs.github.com/en/get-started/quickstart/github-flow) and [here](https://www.djmannion.net/code_review/) for more details.
 
 ## Project Setup  
-- You work with me to design a project, from background justification to experimental design. When setting up a new project, it’s recommended to follow a **GitHub first, RProject second** approach. I will set up a repo on GitHub, as part of the ZoopEcoEvo organization (the main benefit here is that the project_template repo includes a pre-determined directory structure, appropriate file paths, .Rmd YAMLs, etc. to help minimize how much set-up time is required from you)
+- Typically, we'll work together to design a project, from background justification to experimental design. When setting up a new project, it’s recommended to follow a **GitHub first, RProject second** approach. I will set up a repo on GitHub, as part of the ZoopEcoEvo organization (the main benefit here is that the project_template repo includes a pre-determined directory structure, appropriate file paths, .Rmd YAMLs, etc. to help minimize how much set-up time is required from you)
     - You should already be added to the organization as a member, but if not, remind me.
     - Make sure you have git installed on your local machine by this point.
 - Copy a link to the clone of this repo to your clipboard by clicking the green “< > Code” button in the top right corner of the repo structure. Typically, we’ll use HTTPS, so make sure this option is selected first. The link can be copied by clicking the overlapping squares icon to the right of the text.
