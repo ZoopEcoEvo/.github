@@ -20,6 +20,10 @@ Project folders and GitHub integrate nicely. We use a specific workflow while de
 - To initiate the PR, make sure your local branch is up to date and then click “New Pull Request” **on GitHub**. This should be visible when viewing the active branches tab. Doing this manually on GitHub rather than through RStudio is the easiest way to start the PR.
 - During code review, we will typically start by looking over the output (either the HTML or the github doc/markdown in the Reports directory), so make sure this is a good summary of what you want feedback on. Depending on time available and complexity of the code, we’ll also review the scripts involved (data processing, .Rmd, etc.). We’ll make comments and suggestions for changes, or accept the PR and merge the development branch into the main branch. This now stands as the new official version, and you can start a new branch to work on the next project development goal.
 
+## Publishing Projects
+- Once the project has been completed and is ready for publication, the repo can be archived with Zenodo in order to establish a Version of Record with an associated DOI. 
+    - See [here](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content) for more details. 
+
 ## General Notes
 This process is iterative! And while it might take some time and effort to get the code worked out, this will help to develop your coding skills and catch potential mistakes before they get embedded in papers and presentations. More importantly, it distributes the responsibility for checking the code across the group - If we all benefit from your work, we should all share some of this burden. 
 
