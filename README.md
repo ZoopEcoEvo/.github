@@ -1,5 +1,5 @@
 # Motivation 
-In general, operating in academia means most projects will be geared towards eventual publication. Our goal is not just to share results, however, but to help people understand the analyses we did. All publications from our group will therefore include some way of accessing the associated data and scripts. However, this gets us only partway towards our goal of **replicable** and **understandable** analyses. Project materials need to be well organized and thoroughly documented (not just "acccessible") in order for other people to follow what was done. This will also help other lab members, when someone wants to follow up on your project, expand the scope of data you collected, or apply similar analyses to their data sets. Luckily, there are well-established best practices for this. 
+In general, operating in academia means most projects will be geared towards eventual publication. Our goal is not just to share results, however, but to help people understand the analyses we did. All publications from our group will therefore include some way of accessing the associated data and scripts. However, this gets us only partway towards our goal of **replicable** and **understandable** analyses. Project materials need to be well organized and thoroughly documented (not just "accessible") in order for other people to follow what was done. This will also help other lab members, when someone wants to follow up on your project, expand the scope of data you collected, or apply similar analyses to their data sets. Luckily, there are well-established best practices for this. 
 
 # Workflow
 Project folders and GitHub integrate nicely. We use a specific workflow while developing projects and writing code based on "GitHub flow".
@@ -7,15 +7,15 @@ Project folders and GitHub integrate nicely. We use a specific workflow while de
 
 ## Initial Setup
 This workflow tends to "just work" once everything is set up. However, there's a fair amount of stuff to work out before you get to that point. Luckily, these are generally a one-time investment (per machine, that is). 
-    - You should already be added to the organization as a member, but if not, remind me.
-    - Install [R and RStudio](https://posit.co/download/rstudio-desktop/).
-    - Make sure you have [git](https://git-scm.com) installed on your local machine by this point. There are some helpful instructions [here](https://happygitwithr.com/install-git.html) if needed. 
-    - Make sure you've got the connections between Git, GitHub, and RStudio worked out. This can take some time, but will make your life easier once done correctly. See [here](https://happygitwithr.com/connect-intro.html) for a nice walk-through. We will generally use HTTPS when working with GitHub in RStudio.
-    - It's a good idea to have a basis familiarity with the terminology of Git and GitHub before you really dive in. See:
-        - [Here](https://github.com/git-guides) for the GitHub documentation, including separate pages for [commits](https://github.com/git-guides/git-commit), [pulling](https://github.com/git-guides/git-pull), and [pushing](https://github.com/git-guides/git-push). Note that while these pages assume you'll be working with Git in the command line, rather than RStudio, the general descriptions still apply.
-        - [Here](https://dx.doi.org/10.7287%2Fpeerj.preprints.3159v2) for a very in-depth written intro.
-        - [Here](https://www.youtube.com/watch?v=eWxxfttcMts&t=82s) for a quick video introduction (starts at ~1:20).
-        - [Here](https://www.youtube.com/watch?v=KjLycV1IWqc) for a nice visual representation of some of the basis Git/GitHub actions.
+- You should already be added to the organization as a member, but if not, remind me.
+- Install [R and RStudio](https://posit.co/download/rstudio-desktop/).
+- Make sure you have [git](https://git-scm.com) installed on your local machine by this point. There are some helpful instructions [here](https://happygitwithr.com/install-git.html) if needed. 
+- Make sure you've got the connections between Git, GitHub, and RStudio worked out. This can take some time, but will make your life easier once done correctly. See [here](https://happygitwithr.com/connect-intro.html) for a nice walk-through. We will generally use HTTPS when working with GitHub in RStudio.
+- It's a good idea to have a basis familiarity with the terminology of Git and GitHub before you really dive in. See:
+    - [Here](https://github.com/git-guides) for the GitHub documentation, including separate pages for [commits](https://github.com/git-guides/git-commit), [pulling](https://github.com/git-guides/git-pull), and [pushing](https://github.com/git-guides/git-push). Note that while these pages assume you'll be working with Git in the command line, rather than RStudio, the general descriptions still apply.
+    - [Here](https://dx.doi.org/10.7287%2Fpeerj.preprints.3159v2) for a very in-depth written intro.
+    - [Here](https://www.youtube.com/watch?v=eWxxfttcMts&t=82s) for a quick video introduction (starts at ~1:20).
+    - [Here](https://www.youtube.com/watch?v=KjLycV1IWqc) for a nice visual representation of some of the basis Git/GitHub actions.
     
 ## Project Setup  
 - Typically, we'll work together to design a project, from background justification to experimental design (always feel free to come to me with new project ideas!). When setting up a project, it’s recommended to follow a **GitHub first, RProject second** approach. I will set up a repo on GitHub, as part of the ZoopEcoEvo organization (the main benefits of this are that the project_template repo includes a pre-determined directory structure, appropriate file paths, .Rmd YAMLs, etc. to help minimize how much set-up time is required from you, and that this will keep all projects in a central location).
