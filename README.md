@@ -3,19 +3,20 @@ In general, operating in academia means most projects will be geared towards eve
 
 # Workflow
 Project folders and GitHub integrate nicely. We use a specific workflow while developing projects and writing code based on "GitHub flow".
-- See [here](https://docs.github.com/en/get-started/quickstart/github-flow) and [here](https://www.djmannion.net/code_review/) for more details.
+- See [here](https://docs.github.com/en/get-started/quickstart/github-flow) for the GitHub description of this approach and [here](https://www.djmannion.net/code_review/) for more details on how it's applied in a research lab setting.
 
 ## Initial Setup
 This workflow tends to "just work" once everything is set up. However, there's a fair amount of stuff to work out before you get to that point. Luckily, these are generally a one-time investment (per machine, that is). 
 - You should already be added to the organization as a member, but if not, remind me.
 - Install [R and RStudio](https://posit.co/download/rstudio-desktop/).
 - Make sure you have [git](https://git-scm.com) installed on your local machine by this point. There are some helpful instructions [here](https://happygitwithr.com/install-git.html) if needed. 
-- Make sure you've got the connections between Git, GitHub, and RStudio worked out. This can take some time, but will make your life easier once done correctly. See [here](https://happygitwithr.com/connect-intro.html) for a nice walk-through. We will generally use HTTPS when working with GitHub in RStudio.
+- Make sure you've got the connections between Git, GitHub, and RStudio worked out. See [here](https://happygitwithr.com/connect-intro.html) for a nice walk-through. We will generally use HTTPS when working with GitHub in RStudio.
 - It's a good idea to have a basic familiarity with the terminology of Git and GitHub before you really dive in. See:
     - [Here](https://github.com/git-guides) for the GitHub documentation, including separate pages for [commits](https://github.com/git-guides/git-commit), [pulling](https://github.com/git-guides/git-pull), and [pushing](https://github.com/git-guides/git-push). Note that while these pages assume you'll be working with Git in the command line, rather than RStudio, the general descriptions still apply.
     - [Here](https://dx.doi.org/10.7287%2Fpeerj.preprints.3159v2) for a very in-depth written intro.
     - [Here](https://www.youtube.com/watch?v=eWxxfttcMts&t=82s) for a quick video introduction (starts at ~1:20).
     - [Here](https://www.youtube.com/watch?v=KjLycV1IWqc) for a nice visual representation of some of the basis Git/GitHub actions.
+    - [Here](https://youtu.be/sxErFMF7BJY) for a walk-through of a fairly similar Git/GitHub/RStudio workflow. There's some differences (or things you won't have to worry about because I will take care of it for you), but the sections on 'Creating an RStudio project from version control' and 'Working with Git from within RStudio' are definitely relevant. 
     
 ## Project Setup  
 - Typically, we'll work together to design a project, from background justification to experimental design (always feel free to come to me with new project ideas!). When setting up a project, it’s recommended to follow a **GitHub first, RProject second** approach. I will set up a repo on GitHub, as part of the ZoopEcoEvo organization (the main benefits of this are that the project_template repo includes a pre-determined directory structure, appropriate file paths, .Rmd YAMLs, etc. to help minimize how much set-up time is required from you, and that this will keep all projects in a central location).
