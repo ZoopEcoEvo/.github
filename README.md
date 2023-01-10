@@ -20,8 +20,8 @@ This workflow tends to "just work" once everything is set up. However, there's a
     
 ## Project Setup  
 - Typically, we'll work together to design a project from background justification to experimental design (always feel free to come to me with new project ideas at any stage though!). When setting up a project, it’s recommended to follow a **GitHub first, RProject second** approach. I will set up a repo for the project on GitHub as part of the ZoopEcoEvo organization. The main benefits of this are that: 
-1. The project_template repo includes a pre-determined directory structure, appropriate file paths, .Rmd YAMLs, etc. to help minimize how much set-up time is required from you. 
-2. This will keep all projects in a central location to make it easier to find relevant code and data.
+    1. The project_template repo includes a pre-determined directory structure, appropriate file paths, .Rmd YAMLs, etc. to help minimize how much set-up time is required from you. 
+    2. This will keep all projects in a central location to make it easier to find relevant code and data.
 - To clone the repo onto your local machine, copy the site path by clicking the green “< > Code” button in the top right corner of the repo structure. Typically, we’ll use HTTPS, so make sure this option is selected. The link can be copied by clicking the overlapping squares icon to the right of the text.
 - Open RStudio and make a new project. **Select version control** (not new directory). In “Repository URL”, paste the URL for the GitHub repository that you copied above. Make sure that you keep your project folders organized on your local machine - I recommend having a single directory called “Lab_Projects” or something similar that you use to store all project folders.
 - You’ve now got a copy of the repo downloaded onto your local machine, which is linked to GitHub. The main branch of every project is read only (i.e. - you likely won't be able to directly modify the content). This is beecause the main branch represents the official “up to date” record of your project. To make changes, you’ll do all active development of the project on a separate branch, which can then be merged into the main branch. This adds a little complexity to the workflow, but means that you can freely explore any direction without worrying about losing progress you’ve already made; you can always just restore to the most recent stable version.
@@ -57,8 +57,8 @@ This workflow tends to "just work" once everything is set up. However, there's a
 ## Pull Requests
 - When you’re ready for feedback on the code, you will initiate a pull request (PR). This starts the Code Review process. I will automatically be notified, but mention any other lab member in the PR that you’d like to look over your code (just be mindful about how much time you’re asking from other lab members).
 - Before you initiate the PR, make sure your local branch is up to date by doing one last pull-push cycle from RStudio. This will make sure that:
-1. your local code reflects the most up-to-date version on the repo to catch any last merge conflicts, and
-2. that your branch on the virtual repo reflects all the changes you've made. 
+    1. your local code reflects the most up-to-date version on the repo to catch any last merge conflicts, and
+    2. that your branch on the virtual repo reflects all the changes you've made. 
 - To initiate the PR, click “New Pull Request” **on GitHub**. This should be visible when viewing the active branches tab. Doing this manually on GitHub rather than through RStudio is the easiest way to start the PR.
 - During code review, we will typically start by looking over the output (either the HTML or the github doc/markdown in the Reports directory) since this should include both code and graphical outputs. Be sure to wpecify if there are other additional files you're looking for feedback on. Depending on time available and complexity of the code, we may also review the scripts involved (data processing, .Rmd, etc.). We’ll make comments and suggestions for changes, or accept the PR and merge the development branch into the main branch. This now stands as the new official version, and you can start a new branch to work on the next project development goal.
 
