@@ -4,7 +4,10 @@ In general, operating in academia means most projects will be geared towards eve
 # Workflow
 This workflow is organized around a "project folder" - a collection of all materials (background information, data, scripts, outputs, etc.) used for a project, contained within a single directory. This concept is described [in these slides](https://djnavarro.net/slides-project-structure/#1) and [here](https://martinctc.github.io/blog/rstudio-projects-and-working-directories-a-beginner%27s-guide/). I've set up a [template project folder](https://github.com/ZoopEcoEvo/project_template) that we'll generally use to get your work started. A map of this project folder is included below to give you some idea of the framework the workflow described on this page works within: 
 
-![A schematic of the project folder file tree](../images/project_folder_schematic.jpg)
+<picture>
+  <img alt="A schematic of the project folder file tree" src="../images/project_folder_schematic.jpg">
+</picture>
+![image](https://user-images.githubusercontent.com/56654872/212527093-ad037c79-a84a-457a-a174-03912563b441.jpeg)
 
 As you can probably already tell, we'll use Git and GitHub to version control your work, to collaborate and review code, as well as share data and results. Project folders and GitHub integrate nicely, and we'll use a specific workflow while developing projects and writing code based on "GitHub flow".
 - See [here](https://docs.github.com/en/get-started/quickstart/github-flow) for the GitHub description of this approach and [here](https://www.djmannion.net/code_review/) for more details on how it's applied in a research lab setting.
@@ -33,7 +36,9 @@ This workflow tends to "just work" once everything is set up. However, there's a
 ## Project Development  
 After the planning stages, work on the project will generally fall into three main categories (there's can be lots of variation between projects though): data analysis, project reports, and manuscript prep. These three classes of project development will pull from different components of the project folder, as illustrated below.  
 
-![A schematic of the three classes of project development](../images/project_phase_schematic.jpg)  
+<picture>
+  <img alt="A schematic of the three classes of project development" src="../images/project_phase_schematic.jpg">
+</picture>
 
 Despite the differences, though, each class will depend on similar skill sets and development follows a similar workflow.
 
