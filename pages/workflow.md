@@ -7,7 +7,6 @@ This workflow is organized around a "project folder" - a collection of all mater
 <picture>
   <img alt="A schematic of the project folder file tree" src="../images/project_folder_schematic.jpg">
 </picture>
-![image](https://user-images.githubusercontent.com/56654872/212527093-ad037c79-a84a-457a-a174-03912563b441.jpeg)
 
 As you can probably already tell, we'll use Git and GitHub to version control your work, to collaborate and review code, as well as share data and results. Project folders and GitHub integrate nicely, and we'll use a specific workflow while developing projects and writing code based on "GitHub flow".
 - See [here](https://docs.github.com/en/get-started/quickstart/github-flow) for the GitHub description of this approach and [here](https://www.djmannion.net/code_review/) for more details on how it's applied in a research lab setting.
