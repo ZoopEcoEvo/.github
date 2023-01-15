@@ -351,7 +351,7 @@ print(y)
 ## [1] 2
 
 print(z)
-## Error in print(z): object 'z' not found
+## [1] 4 5 6 1 2 3
 ```
 
 Variables can be used to store more than just numbers though. Variables
@@ -722,8 +722,7 @@ characters if you try to do this.
 combo = c(z, pond)
 
 print(combo)
-##  [1] "4"         "5"         "6"         "1"         "2"         "3"        
-##  [7] "red fish"  "blue fish" "one fish"  "two fish"
+##  [1] "4"         "5"         "6"         "1"         "2"         "3"         "red fish"  "blue fish" "one fish"  "two fish"
 
 class(combo)
 ## [1] "character"
